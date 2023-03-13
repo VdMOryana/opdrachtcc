@@ -135,42 +135,44 @@
   color: #ddebe4;
   background-color: #324894;
   font-family: 'Raleway';
-  padding-bottom: 1.5rem;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .left {
-  margin-left: 25%;
   width: 25%;
   padding: 0.5rem;
 }
 
 .right {
-  width: 25%;
+  width: 75%;
   padding: 0.5rem;
-  margin-right: 25%;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1rem;
-  padding-bottom: 5px;
-  padding-top: 18px;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .column p {
-  font-size: 0.8rem;
-  line-height: 1.2;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 #address {
-  font-size: 0.8rem;
-  line-height: 1.2;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .contactform {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
   border-radius: 5px;
-  line-height: 20px;
+  line-height: 35px;
   background-color: transparent;
   border: 2px solid #ddebe4;
   transition: all 0.3s;
@@ -183,6 +185,7 @@ h2 {
 
 .contactform__button {
   width: 100%;
+  font-size: 1rem;
   background: #ddebe4;
   color: #324894;
   border-radius: 5px;
@@ -212,12 +215,41 @@ h2 {
   #info__img {
     margin-left: 1.5rem;
   }
+
+  .column {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .left {
-    margin-left: 10%;
     width: 40%;
   }
   .right {
-    margin-right: 10%;
-    width: 40%;
+    width: 60%;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .column p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  #address {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  .contactform {
+    font-size: 0.8rem;
+  }
+
+  .contactform__button {
+    font-size: 0.8rem;
   }
 }
