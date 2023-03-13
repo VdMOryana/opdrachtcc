@@ -1,7 +1,3 @@
-/*
-Kleurcodes: DDEBE4 // AFD2BB // 7BB784 // 344895
-*/
-
 .content {
   background-color: #ddebe4;
   position: relative;
@@ -58,6 +54,7 @@ Kleurcodes: DDEBE4 // AFD2BB // 7BB784 // 344895
 .info h2 {
   font-size: 1rem;
   line-height: 1.4;
+  color: rgb(60, 58, 58);
 }
 
 .info__extra {
@@ -73,12 +70,14 @@ Kleurcodes: DDEBE4 // AFD2BB // 7BB784 // 344895
   font-size: 1.5rem;
   font-weight: bold;
   padding-top: 1.2rem;
+  color: #324895;
 }
 
 .info__extra h2 {
   font-size: 1rem;
   line-height: 1.4;
   padding-right: 0.5rem;
+  color: rgb(60, 58, 58);
 }
 
 :root {
@@ -119,6 +118,7 @@ Kleurcodes: DDEBE4 // AFD2BB // 7BB784 // 344895
   line-height: 1.4;
   width: 50%;
   margin-left: 25%;
+  color: rgb(60, 58, 58);
 }
 
 #info__img {
